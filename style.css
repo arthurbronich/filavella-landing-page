@@ -271,8 +271,11 @@ a {
 
 /* FORM SECTION & CENTERING STYLES */
 .form-section {
-  max-width: 600px; /* Constrains the form so it looks clean */
-  margin: 0 auto 6rem; /* Centers the block horizontally */
+  max-width: 600px;
+  margin-top: 0;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2.5rem 2rem;
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
