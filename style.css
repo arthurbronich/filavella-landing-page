@@ -306,3 +306,72 @@ a {
   max-width: 100% !important;
   display: block !important;
 }
+
+/* HUBSPOT FORM INTERNAL STYLING OVERRIDES */
+
+/* Fix Label & Text Colors */
+.form-section label,
+.form-section .hs-form-field > label,
+.form-section .hs-mainfont-element {
+  color: #f8fafc !important; /* Bright white labels */
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 0.5rem !important;
+  display: block !important;
+  text-align: left !important;
+}
+
+/* Fix Dark Helper Subtitle Text */
+.form-section .hs-richtext,
+.form-section .hs-richtext p {
+  color: #94a3b8 !important; /* Visible light grey */
+  font-size: 0.95rem !important;
+  margin-bottom: 1.5rem !important;
+  text-align: center !important;
+}
+
+/* Modern Input Fields */
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="tel"],
+.form-section select,
+.form-section textarea {
+  width: 100% !important;
+  background-color: #0f172a !important; /* Deep slate inner field */
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 8px !important;
+  color: #ffffff !important;
+  padding: 0.75rem 1rem !important;
+  font-size: 0.95rem !important;
+  outline: none !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.form-section input[type="text"]:focus,
+.form-section input[type="email"]:focus {
+  border-color: #3b82f6 !important; /* Accent blue glow on focus */
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2) !important;
+}
+
+/* Modern Primary Submit Button */
+.form-section input[type="submit"],
+.form-section .hs-button {
+  width: 100% !important;
+  background-color: #3b82f6 !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  padding: 0.85rem 1.5rem !important;
+  border-radius: 8px !important;
+  border: none !important;
+  cursor: pointer !important;
+  margin-top: 1rem !important;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4) !important;
+  transition: all 0.2s ease !important;
+}
+
+.form-section input[type="submit"]:hover,
+.form-section .hs-button:hover {
+  background-color: #2563eb !important;
+  transform: translateY(-1px) !important;
+}
