@@ -247,3 +247,50 @@ a {
     display: none;
   }
 }
+/* INFO SECTION STYLES */
+.info-section {
+  max-width: 800px;
+  margin: 4rem auto 2rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* FORM SECTION & CENTERING STYLES */
+.form-section {
+  max-width: 600px; /* Constrains the form so it looks clean */
+  margin: 0 auto 6rem; /* Centers the block horizontally */
+  padding: 2.5rem 2rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 1.5rem;
+}
+
+/* HUBSPOT EMBED CONTAINER ADJUSTMENT */
+.hs-form-frame {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
